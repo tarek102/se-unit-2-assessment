@@ -1,6 +1,6 @@
 // Question 1
-function stripPunctuation() {
-
+function stripPunctuation(e) {
+    return e.replace(/[^0-9A-Z]+/gi,"");
 }
 
 // Question 2
